@@ -81,3 +81,19 @@ Words chosen using the following rules:
 Rules 11 and 12 prevent the selection words that are not different enough. This makes each word more recognizable among others and less error prone. For example: the wordlist contains "atono", then "atomo" is rejected, but "atomico" is good. 
 
 All the words have been manually selected and automatically checked against the rules.
+
+### Dutch
+
+Credits: @mccwdev @1200wd
+
+Wordlist generated with this script and manually edited (https://github.com/mccwdev/bip39-dutch-wordlist)
+
+1. Words between 4 to 8 characters
+2. Words with the 26 normal characters of the alphabet without accents, trema's etcetera
+3. Frequent used words according to the corpara of the Dutch Institute for Lexicology (INL)
+4. First 4 letters are unique for every word.
+5. Mainly infinitive verbs unless others forms are more common.
+6. No in any way negative words or words which can be used in a negative sense.
+7. No words with similar characters or pronunciation, like k and x or c and k.
+8. No words already used in other language mnemonic sets.
+
